@@ -33,7 +33,7 @@ return array(
 
 ### controllers.php
 
-```
+```php
 <?php
 
 class Controllers
@@ -62,7 +62,7 @@ class Controllers
 
 ### config/routes.php
 
-```
+```php
 <?php
 
 /**
@@ -76,6 +76,6 @@ return array(
 
 ### views/index.tpl
 
-```
+```html
 <h1>{$title}</h1>
 ```
