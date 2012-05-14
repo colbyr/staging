@@ -20,7 +20,7 @@ return array(
      *
      * @var string
      */
-    'url' => 'http://localhost:8888/framework',
+    'url' => 'http://localhost',
 
     /**
      * Autoload
