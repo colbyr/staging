@@ -6,15 +6,15 @@ I love [Laravel](http://laravel.com). I was also stuck working in PHP 5.2. So to
 
 ## Configuration
 
-1. apache
+### 1. apache
 
 Staging uses mod_rewrite to make pretty URLs. Make sure mod_rewrite is install, enabled in Apache and that overides are allowed in the app's directory.
 
-2. PHP
+### 2. PHP
 
 Staging was written for PHP 5.2. If you're running 5.3+, I recommend using [Laravel](http://laravel.com). Trust me... it's awesome!
 
-3. set the base application URL in `config/application.php`
+### 3. set the base application URL in `config/application.php`
 
 ```php
 <?php
