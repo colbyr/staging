@@ -4,6 +4,7 @@
  * Controllers
  *
  * a collection of methods that can be executed by routes
+ * controller methods are prepended with "action_"
  */
 class Controllers
 {
@@ -18,7 +19,7 @@ class Controllers
     public static function before() {}
 
     /**
-     * Before
+     * After
      *
      * Run following every request
      *
