@@ -11,6 +11,7 @@
 
 <!-- styles -->
 <link href="{Asset::css('inuit')}" type="text/css" rel="stylesheet" />
+<link href="{Asset::css('main')}" type="text/css" rel="stylesheet" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

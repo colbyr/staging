@@ -14,6 +14,21 @@ I love [Laravel](http://laravel.com). I was also stuck working in PHP 5.2. So to
 
 ## A Basic App
 
+### config/application.php
+
+```
+return array(
+
+    /**
+     * URL
+     *
+     * be sure to set the base URL of your application (no trailing slash)
+     */
+    'url' => 'http://localhost'
+
+);
+```
+
 ### controllers.php
 
 ```

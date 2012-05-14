@@ -34,7 +34,20 @@
 
     <h2>A Basic App:</h2>
 
-    <h4>controllers.php</h4>
+    <h4><code>config/application.php</code></h4>
+
+    <pre class="warning"><code>return array(
+
+    /**
+     * URL
+     *
+     * be sure to set the base URL of your application (no trailing slash)
+     */
+    'url' => 'http://localhost'
+
+);</code></pre>
+
+    <h4><code>controllers.php</code></h4>
 
     <pre class="warning"><code>class Controllers
 {
@@ -59,7 +72,7 @@
 
 }</code></pre>
 
-    <h4>config/routes.php</h4>
+    <h4><code>config/routes.php</code></h4>
 
     <pre class="warning"><code>/**
  * Routes
@@ -69,7 +82,7 @@ return array(
     'GET /home' => 'index'
 );</code></pre>
 
-    <h4>views/index.tpl</h4>
+    <h4><code>views/index.tpl</code></h4>
 
     <pre class="warning"><code>&lt;h1&gt;{literal}{$title}{/literal}&lt;/h1&gt;</code></pre>
 
