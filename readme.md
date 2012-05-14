@@ -34,6 +34,8 @@ return array(
 ### controllers.php
 
 ```
+<?php
+
 class Controllers
 {
 
@@ -61,6 +63,8 @@ class Controllers
 ### config/routes.php
 
 ```
+<?php
+
 /**
  * Routes
  */
