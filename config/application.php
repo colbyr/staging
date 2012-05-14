@@ -20,6 +20,15 @@ return array(
      *
      * @var string
      */
-    'url' => 'http://localhost:8888/framework'
+    'url' => 'http://localhost:8888/framework',
+
+    /**
+     * Autoload
+     *
+     * Specify additional paths to be autoloaded
+     *
+     * @var array
+     */
+    'autoload' => array()
 
 );

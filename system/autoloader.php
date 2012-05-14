@@ -18,7 +18,7 @@ class Autoloader {
      *
      * @var array
      */
-    public $paths;
+    public $paths = array();
 
     /**
      * Paths
@@ -40,9 +40,9 @@ class Autoloader {
      * @param  array $paths
      * @return void
      */
-    public function __construct($paths=array()) {
-        $this->paths = $paths;
+    public function __construct() {
         spl_autoload_register(array($this, 'autoload'));
+        $this->paths = Config::get('application.autoload', array());
     }
 
     /**
