@@ -17,6 +17,8 @@ I love [Laravel](http://laravel.com). I was also stuck working in PHP 5.2. So to
 ### config/application.php
 
 ```php
+<?php
+
 return array(
 
     /**
